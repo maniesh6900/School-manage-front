@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 
 function CreateSchool() {
@@ -68,7 +68,7 @@ function CreateSchool() {
       </form>
       <button type='submit' 
         title='button' 
-        // onClick={handleSubmit}
+        onClick={handleSubmit}
         className='bg-green-500 rounded-md p-2 text-white hover:bg-green-700 active:bg-green-900 focus:bg-green-700 focus:ring focus:ring-green-300 disabled:opacity-25 transition-all duration-200'
       >Submit</button>
     </div>

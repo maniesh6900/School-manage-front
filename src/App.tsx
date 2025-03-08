@@ -13,7 +13,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/get" element={<SchoolGet />} />
         <Route path="/create" element={<CreateSchool/>} />
-       
       </Routes>
     </BrowserRouter>
       
