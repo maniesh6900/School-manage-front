@@ -16,7 +16,6 @@ function SchoolGet() {
   async function handleAxios(){
     const res =  await axios.get("http://localhost:4000/api/v1/school/get");
     setData(res.data.data);
-    console.log(res.data.data);
   }
 
   useEffect(()=>{
